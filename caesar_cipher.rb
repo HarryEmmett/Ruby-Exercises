@@ -44,3 +44,8 @@ end
 #   end
 #   res.join('')
 # end
+
+# Shift letters by the factor provided and loop back if these values go past "Z"
+# xyz factor 2 => zab
+
+# caesar_cipher("What a string!", 5) => "Bmfy f xywnsl!"

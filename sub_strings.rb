@@ -12,5 +12,8 @@ def substrings(argument, dictionary)
   result
 end
 
-dictionary = %w[below down go going horn how howdy it i low own part partner sit]
-puts substrings("Howdy partner, sit down! How's it going?", dictionary)
+# Return a new hash that has values & counts for all the possible words in a string
+# Howdy returns how & howdy
+
+# dictionary = %w[below down go going horn how howdy it i low own part partner sit]
+# puts substrings("Howdy partner, sit down! How's it going?", dictionary)
