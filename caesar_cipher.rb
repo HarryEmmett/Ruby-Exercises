@@ -5,11 +5,12 @@ def caesar_cipher(string, factor)
     u_case = char.ord >= 65 && char.ord <= 90
     l_case = char.ord >= 97 && char.ord <= 122
     startOrd = l_case ? 97 : 65
-    result += if u_case || l_case
-                ((((char.ord - startOrd) + factor) % 26) + startOrd).chr
-              else
-                char
-              end
+    result += 
+    if u_case || l_case
+      ((((char.ord - startOrd) + factor) % 26) + startOrd).chr
+    else
+      char
+    end
   end
   result
 end
