@@ -1,9 +1,11 @@
 def bubble_sort(arr)
   index = 0
-  # n - 1 loops index = 0 so need -2
+  # n - 1 loops index = 0 so need - 2
   while index != arr.length - 2
     for a in 0..arr.length - 1 do
       if a == arr.length - 1
+        # if the loop is at the end of the array index leave as is
+        # as at the end of the array 
         break
       elsif arr[a] > arr[a + 1]
         val = arr[a]
